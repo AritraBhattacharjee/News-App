@@ -1,6 +1,6 @@
 
 
-// import {str} frogit m './key.js'
+import {API_KEY} from './config.js'
 
 console.log("JS file loaded");
 // let apikey = str
