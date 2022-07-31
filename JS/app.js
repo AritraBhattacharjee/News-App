@@ -1,6 +1,6 @@
 
 
-import {str} from './key.js'
+// import {str} from './key.js'
 
 console.log("JS file loaded");
 let apikey = str
