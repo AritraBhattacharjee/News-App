@@ -1,12 +1,12 @@
 
 
-// import {API_KEY} from './config.js'
+import {API_KEY} from './config.js'
 
 console.log("JS file loaded");
 // let apikey = str
 // let source = `bbc-news`;
 let source = `the-times-of-india`;
-let url = `https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${secrets.API_KEY}`;
+let url = `https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${API_KEY}`;
 
 let newsAccordion = document.getElementById("newsAccordion");
 let news = `
